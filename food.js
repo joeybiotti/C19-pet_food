@@ -21,15 +21,15 @@ function showData(food){
 	dogFoodData = " ";
 
 	for (x in food){
-
 		var dogFoodType = food[x];
 		console.log("dogFoodType", dogFoodType);
 		for (var i = 0; i < dogFoodType.length; i++) {
 			dogFoodType[i];
 			console.log("dogFoodType", dogFoodType[i]);
-		};
+	};
 
 
+//Print info to DOM//
 		dogFoodData += "<div>";
 		dogFoodData += "<h2>" + dogFoodType[0].name + ": " + "</h2>";
 		dogFoodData += "<h3>" + dogFoodType.type + " " + dogFoodType[0].volume + "</h3>";
